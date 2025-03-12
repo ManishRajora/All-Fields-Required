@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(235, 204, 204);
+}
+
+#header{
+    text-align: center;
+}
+
+.warning{
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.warning h4{
+    color: rgb(72, 70, 70);
+}
+
+.warning h4 span{
+    color: red;
+}
+
+.form-container{
+    position: relative;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+}
+
+.form{
+    margin: 10px;
+    padding: 10px;
+    display: block;
+}
+
+.input-block{
+    display: block;
+    position: relative;
+    margin: 5px;
+    padding: 10px;
+}
+
+input:focus{
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid red;
+}
+
+.submit{
+    position: realtive;
+    cursor: pointer;
+    background-color: rgb(24, 173, 232);
+    color: white;
+    border: 2px solid rgb(24, 173, 232);
+    display: block;
+    border-radius: 5px;
+    font-size: larger;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+}
