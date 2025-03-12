@@ -50,8 +50,14 @@ input:focus{
     border: 2px solid red;
 }
 
+.uname_small, .pass_small{
+    color: red;
+    font-size: small;
+    display: none;
+}
+
 .submit{
-    position: realtive;
+    position: relative;
     cursor: pointer;
     background-color: rgb(24, 173, 232);
     color: white;
